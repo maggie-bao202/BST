@@ -11,7 +11,7 @@ Node* addToTree(Node* current, int value);
 void removeFromTree(Node* &root, Node* &current);
 void printSort(Node* current);
 Node* getNode(Node* current, int value);
-Node* successorRight(Node* current);
+Node* leftMostNode(Node* current);
 void printTree(Node* current, int depth);
 
 /*3/19/2020 Author: Maggie Bao Description: The program takes a list 
